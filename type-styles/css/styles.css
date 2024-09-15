@@ -1,0 +1,69 @@
+html{
+    font-family: "Raleway", sans-serif;
+}
+
+
+header{
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 10px;
+    font-weight: normal;
+    color: blue;
+}
+
+p.fontweight.bold{
+    font-weight: bold;
+}
+
+p.fontstyle.italic{
+    font-style:italic
+}
+
+p.letterspacing.positive{
+    letter-spacing: .4em;
+}
+
+p.letterspacing.negative{
+    letter-spacing: -0.1em;
+}
+
+p.textdecoration.underline{
+    text-decoration: underline;
+}
+
+p.textdecoration.linethrough{
+    text-decoration: line-through;
+}
+
+p.textdecoration.overline{
+    text-decoration: overline;
+}
+
+p.texttransform.uppercase{
+    text-transform: uppercase;
+}
+
+p.texttransform.lowercase{
+    text-transform: lowercase;
+}
+
+p.texttransform.capitalize{
+    text-transform: capitalize;
+}
