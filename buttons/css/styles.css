@@ -1,0 +1,343 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_newyorker {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: black;
+    border: 2px solid black;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all .3s;
+}
+
+a#btn_newyorker:hover {
+    background-color: white;
+    color: black;
+}
+
+a#btn_botanical {
+    display: inline-block;
+    margin: auto;
+    margin-top: 95px;
+    padding: 0 30px 20px 30px;
+    color: black;
+    font-size: 25px;
+    font-family: "handsome-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_botanical:hover {
+    color: green;
+}
+
+a#btn_pottermore {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Harry Potter', sans-serif;
+    color: #550000;
+    font-size: 40px;
+}
+
+a#btn_pottermore:hover {
+    color: #b78700;
+    background: #FFFFFF;
+    text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgba(77,77,77,1);
+}   
+
+a#btn_lyft {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 35px;
+    background-color: #FF008f;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    transition: all .6s;
+    font-family: "gal-gothic-variable", sans-serif;
+    font-variation-settings: "wght" 700;
+}
+
+a#btn_lyft:hover{
+    background-color: white;
+    color: #FF008f;
+}
+
+a#btn_colorrun {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 54%,#ff5c5c 100%); 
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+a#btn_colorrun:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px 30px 0 30px;
+    background-color: #fff;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a#btn_fitbit:hover{
+    padding: 10px 30px 0 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: black;
+    color: lightgrey;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+a#btn_army {
+    font-family: "octin-college", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+a#btn_army:hover{
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+a#btn_coke {
+    font-family: 'Coca-Cola', sans-serif;
+    font-style: normal;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+a#btn_coke:hover{
+    display: block;
+    transform-origin: center bottom;
+    animation-name: burn;
+    animation-duration: 2s;
+    color: red;
+}
+
+
+@keyframes burn {
+    50% {transform: rotate(360deg);}
+}
+
+a#btn_oldnavy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 50px;
+    text-decoration: none;
+    color: navy;
+    transition: all .6s;
+}
+
+a#btn_oldnavy:hover {
+    color: white;
+    background-color: navy;
+}
+
+a#btn_bissingers {
+    font-family:'Lucida Handwriting';
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 50px;
+    text-decoration: none;
+    color: gold;
+    transition: all .5s;
+}
+
+a#btn_bissingers:hover{   
+    color: white; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 28%,#f8b500 52%,#fbdf93 100%); 
+}
