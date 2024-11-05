@@ -1,0 +1,11 @@
+header{
+    font-size: 25pt;
+}
+
+.desktop {
+    width: 1200px;
+}
+   
+.phone{
+    width: 400px;
+}
