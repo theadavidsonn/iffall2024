@@ -1,0 +1,114 @@
+
+
+h1{
+    font-size: 40pt;
+}
+
+h2{
+    font-family: "indie-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-left: 50px;
+    font-size: 25pt;
+}
+
+p{
+    font-family: "josefin-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 800px;
+    margin-left: 50px;
+    line-height: 1.7;
+}
+
+.nav-bar-section{
+    gap: 15px;
+    font-family: "indie-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image:  radial-gradient(#fcdbc0 1.25px, transparent 1.25px), radial-gradient(#fcdbc0 1.25px, #ffffff 1.25px);
+    background-size: 50px 50px;
+    background-position: 0 0,25px 25px;
+    overflow: hidden;
+}
+.nav-bar a {
+    float:inline-start;
+    color: black;
+    text-align: center;
+    padding: 20px 120px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    color: orange;
+}
+  
+.nav-bar a.active {
+    color: brown;
+}
+
+.title-section{
+    display: flex;
+    background-color: #CB9C73;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    justify-content: center;
+    align-items: center;
+    font-family: "indie-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: white;
+    font-size: 40pt;
+    text-wrap: wrap;
+    list-style: none;
+}
+
+.title-section img{
+    max-width: 75%;
+}
+
+.about-main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f0e6; 
+    background-image:
+    radial-gradient(rgba(139, 69, 19, 0.05) 10%, transparent 10%), 
+    radial-gradient(rgba(205, 133, 63, 0.05) 10%, transparent 10%), 
+    radial-gradient(rgba(222, 184, 135, 0.04) 10%, transparent 10%); 
+    background-size: 20px 20px, 30px 30px, 40px 40px; 
+    background-blend-mode: multiply;
+    padding-top: 10px;  
+    gap: 20px; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+
+
+.seflie-images{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    gap: 20px;
+    background-color: #f5f0e6; 
+    background-image:
+    radial-gradient(rgba(139, 69, 19, 0.05) 10%, transparent 10%), 
+    radial-gradient(rgba(205, 133, 63, 0.05) 10%, transparent 10%), 
+    radial-gradient(rgba(222, 184, 135, 0.04) 10%, transparent 10%); 
+    background-size: 20px 20px, 30px 30px, 40px 40px; 
+    background-blend-mode: multiply;
+}
+
+.seflie-images img{
+    width: 100%;    
+    max-height: 400px;   
+    border-radius: 8px; 
+}
